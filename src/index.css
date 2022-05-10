@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* ### Neutral */
+
+  --color-bg: hsl(207, 26%, 17%); /*Background*/
+  --color-text: hsl(0, 0%, 100%); /*text*/
+  --color-element: hsl(209, 23%, 22%); /*Elements*/
+  --color-white: hsl(0, 0%, 100%); /*White*/
+  --color-input: hsl(0, 0%, 52%); /*Input*/
+}
+
+[data-theme='light'] {
+  --color-bg: hsl(0, 0%, 98%); /*Background*/
+  --color-text: hsl(200, 15%, 8%); /*text*/
+  --color-element: hsl(0, 0%, 100%); /*Elements*/
+  --color-white: hsl(0, 0%, 100%); /*White*/
+  --color-input: hsl(0, 0%, 52%); /*Input*/
+}
