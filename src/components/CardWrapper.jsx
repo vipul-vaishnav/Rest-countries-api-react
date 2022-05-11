@@ -7,6 +7,10 @@ const CardWrapper = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    document.title = 'Frontend Mentor | Rest Countries API with color theme switcher';
+  }, []);
+
+  useEffect(() => {
     fetch(`https://restcountries.com/v2/all`)
       .then((response) => {
         if (response.ok) {
