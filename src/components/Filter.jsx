@@ -10,7 +10,7 @@ const Filter = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between gap-4 px-12 py-4 rounded-md shadow-lg text-text_color bg-element_color">
+      <div className="flex items-center justify-between gap-4 px-12 py-3 rounded-md shadow-lg text-text_color bg-element_color">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-6 h-6"
