@@ -6,11 +6,9 @@ const Card = ({ value }) => {
     return new Intl.NumberFormat().format(value.population);
   };
 
-  const path = () => value.name.toLowerCase();
-  console.log(value);
-
+  // console.log(value);
   return (
-    <Link to={path}>
+    <Link to={`/countries/${value.name}`}>
       <div className="mx-auto overflow-hidden rounded-md shadow-lg cursor-pointer mt-14 w-80 bg-element_color">
         <div className="w-full overflow-hidden">
           <img src={value.flags.svg} className="w-full h-auto" alt="" />
